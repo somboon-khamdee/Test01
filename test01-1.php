@@ -27,14 +27,14 @@
         echo"ได้รับโบนัส : ".$bonus." บาท<br>";
         echo"รวมยอด : ".$total." บาท";
     }
-    else if($salary = 50000){
+    else if($salary >= 50000){
         $bonus = $salary * (200/100);
         $total = $salary + $bonus;
         echo "ได้รับเงินเดือน : " . $salary . " บาท<br>";
         echo "ได้รับโบนัส : " . $bonus . " บาท<br>";
         echo "รวมยอด : " . $total . " บาท";
     }
-    else if($salary = 100000){
+    else if($salary >= 100000){
         $bonus = $salary * (100/100);
         $total = $salary + $bonus;
         echo "ได้รับเงินเดือน : " . $salary . " บาท<br>";
